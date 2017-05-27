@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">StarWarsAPI</string>
+    <string name="conection_error">Parece que vc esta sem conexão, verifique sua conexão</string>
 </resources>

@@ -27,7 +27,9 @@ public class PeopleResults {
     @SerializedName("homeworld")
     private String homePeople;
 
-    public PeopleResults(String namePeople, String heigthPeople, String massPeople, String hairPeople, String skinPeople, String eyePeople, String birthPeople, String genderPeople, String homePeople) {
+    public PeopleResults(String namePeople, String heigthPeople, String massPeople, String hairPeople,
+                         String skinPeople, String eyePeople, String birthPeople, String genderPeople,
+                         String homePeople) {
         this.namePeople = namePeople;
         this.heigthPeople = heigthPeople;
         this.massPeople = massPeople;

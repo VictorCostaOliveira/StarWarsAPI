@@ -11,8 +11,8 @@ import retrofit2.http.GET;
 
 public interface ClientInterface {
 
-    @GET("peoples/")
-    Call<APIPeopleResult> getAllPeoples;
+    @GET("people/")
+    Call<APIPeopleResult> getAllPeoples();
 
 
 }

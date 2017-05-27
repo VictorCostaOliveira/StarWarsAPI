@@ -1,5 +1,6 @@
 package com.example.jera.starwarsapi.Activity.Adapter;
 
+import android.content.Context;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -16,10 +17,12 @@ import java.util.List;
 public class PeoplesAdapter extends RecyclerView.Adapter<AdapterViewHolder> {
     public List<PeopleResults> peopleResultsesList;
     private int rowLayout;
+    private Context context;
 
-    public PeoplesAdapter(List<PeopleResults> peopleResultsesList, int rowLayout) {
+    public PeoplesAdapter(List<PeopleResults> peopleResultsesList, int rowLayout, Context context) {
         this.peopleResultsesList = peopleResultsesList;
         this.rowLayout = rowLayout;
+        this.context = context;
     }
 
     @Override
